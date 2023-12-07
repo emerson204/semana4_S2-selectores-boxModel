@@ -1,3 +1,8 @@
+/*Selector universal con propiedad importante*/
+* {
+  box-sizing: border-box;
+}
+
 /*Selector de etiqueta*/
 h1 {
   color: rgb(83, 83, 83);
@@ -31,4 +36,26 @@ h1 {
 /*Hermanos siguientes*/
 .siguientes ~ p {
   color: rgb(16, 147, 147);
+}
+
+/*BOX MODEL*/
+
+.heading {
+  font-size: 2rem;
+  color: rgb(83, 83, 83);
+}
+
+.caja {
+  width: 200px;
+  height: 200px;
+}
+
+.caja1 {
+  background-color: peru;
+  margin: 2rem 0;
+}
+
+.caja2 {
+  background-color: aquamarine;
+  margin: 0 auto;
 }
