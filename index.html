@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Selectores</title>
+  </head>
+  <body>
+    <header>
+      <h1>Selectores</h1>
+    </header>
+
+    <section>
+      <h2>Selector de etiqueta</h2>
+      <p>
+        El selector de etiqueta es el de menor especificidad , sirve para dar
+        estilos generales como al inicio del proyecto
+      </p>
+
+      <h2>Selector de clase</h2>
+      <p class="claseSelector">
+        El selector de clase es el que mas utilizaremos en dar estilos a las
+        etiquetas , es como un identificador a la etiqueta que se le va a dar
+        estilo , se llama con un .nombreClase
+      </p>
+
+      <h2>Selector id</h2>
+      <p id="parrafo">
+        El selector Id es un identificador unico en las etiquetas osea si tu le
+        pones un nombre de id a un etiqueta , ese nombre no debe de ser llamado
+        en otra etiqueta , se llama con #nombreId
+      </p>
+    </section>
+
+    <section>
+      <h2>Elementos descendientes</h2>
+      <div class="padreDes">
+        <p>Soy elemento descendiente</p>
+        <p>Soy elemento descendiente</p>
+        <p>Soy elemento descendiente</p>
+      </div>
+
+      <h2>Elemento hijo directo</h2>
+      <div class="padreDirec">
+        <p>Soy hijo directo</p>
+        <p>Soy hijo directo</p>
+        <div>
+          <p>Soy hijo pero no directo</p>
+        </div>
+        <p>Soy hijo directo</p>
+      </div>
+
+      <h2>Hermano siguiente o adyacente</h2>
+      <div>
+        <h3 class="siguiente">Hermano siguiente singular</h3>
+        <p>Hermano siguiente singular</p>
+        <p>Hermano siguiente singular</p>
+        <p>Hermano siguiente singular</p>
+      </div>
+
+      <h2>Hermanos siguientes</h2>
+      <div>
+        <h3 class="siguientes">Hermano siguiente plural</h3>
+        <p>Hermano siguiente plural</p>
+        <p>Hermano siguiente plural</p>
+        <p>Hermano siguiente plural</p>
+      </div>
+    </section>
+  </body>
+</html>
